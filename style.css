@@ -1,16 +1,3 @@
-/* 
-Author: Pablo Escalante
-contact: pescalantej@gmail.com
-
-This responsive resume layout uses two media querys (tablet and desktop) acording to resolution device.
-The default layout is for smartphones.
-
-I used this layout https://resumekraft.com/wp-content/uploads/2021/01/Data-Analyst-Resume-1.jpg as a reference.
-
-Regards!
-
-*/
-
 /*---------- elements ----------*/
 :root {
   --blue-header: #005b84;
@@ -70,7 +57,11 @@ footer {
   padding: 0 1.25rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+span {
+  display: none;
 }
 
 /*---------- classes ----------*/
@@ -185,6 +176,11 @@ footer {
 .copyright {
 margin: 0;
 color: #bbbbbb;
+display: none;
+}
+
+.disappear {
+  display: unset;
 }
 
 /*---------- ids ----------*/
@@ -207,7 +203,7 @@ color: #bbbbbb;
   font-size: clamp(1rem, 3.5vw, 1.5rem);
 }
 
-#location {
+#location, #email {
   display: none;
 }
 
@@ -261,10 +257,19 @@ color: #bbbbbb;
   footer {
     grid-area: f;
     height: 50px;
+    justify-content: space-between;
   }
 
-  #location {
+  #location, #email, .copyright {
     display: unset;
+  }
+
+  span {
+    display: unset;
+  }
+
+  .disappear {
+    display: none;
   }
 
 }
