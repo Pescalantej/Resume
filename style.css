@@ -35,6 +35,7 @@ h5 {
   font-weight: normal;
   float: left;
   color: var(--text-color);
+  text-align: left;
 }
 
 ul {
@@ -49,6 +50,7 @@ ul {
 
 li:not(:first-of-type) {
   padding-top: 0.5rem;
+  text-align: justify;
 }
 
 footer {
