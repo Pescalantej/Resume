@@ -26,6 +26,7 @@ h3 {
 h4 {
   margin-block-start: 0.5rem;
   margin-block-end: 0.25rem;
+  text-align: left;
 }
 
 h5 {
