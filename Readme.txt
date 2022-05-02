@@ -5,5 +5,6 @@ This responsive resume layout uses two media querys (tablet and desktop) acordin
 The default layout is for smartphones.
 
 I used this layout https://resumekraft.com/wp-content/uploads/2021/01/Data-Analyst-Resume-1.jpg as a reference.
+Yo can visit the first version in https://pabloescalante.netlify.app/
 
 Regards!
